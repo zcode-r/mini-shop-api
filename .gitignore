@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# Environment variables (NEVER share these!)
+.env
+
+# Uploads (We don't want local test images on the server)
+uploads/
+
+# OS generated files
+.DS_Store
+Thumbs.db
