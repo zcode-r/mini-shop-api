@@ -25,8 +25,8 @@ app.use(cookieParser())
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
 
 app.get('/', (req, res) => {
-    res.send(`API is running`)
-})
+    res.send("<h1>Welcome to Mini Shop API 🛒</h1>");
+});
 
 app.use('/api/product', productroute)
 app.use('/api/user', userroute)
